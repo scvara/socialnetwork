@@ -1,0 +1,30 @@
+.profile{
+    max-width: 920px;
+    width: 100%;
+    background-color: rgb(198, 234, 255);
+    border-radius: 15px;
+
+}
+
+.profile_img {
+    height: 200px;
+    background-image: url(https://media.sproutsocial.com/uploads/2018/04/Facebook-Cover-Photo-Size.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.user_ava img{
+    height: 90px;
+    border-radius: 50%;
+    border: 4px dashed rgb(255, 217, 0);
+    margin: 10px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}

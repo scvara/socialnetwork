@@ -1,0 +1,23 @@
+.navigation{
+    max-width: 250px;
+    width: 20%;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 6px;
+}
+
+.nav_item:after {
+    content:' »';
+}
+.nav_item {
+    margin-bottom: 10px;
+}
+.nav_item a{
+    text-decoration: none;
+    color: black;
+}
+.nav_item:hover{
+    text-decoration: none;
+    background-color: rgb(255, 136, 255);
+}
