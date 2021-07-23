@@ -1,0 +1,39 @@
+.my_posts {
+    background-color: rgba(255, 238, 0, 0.212);
+    width: 99%;
+    margin: 0 auto;
+    padding: 15px 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.my_posts h2 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.my_posts_btn {
+    padding: 5px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.text_area_input input {
+    display: block;
+    width: 95%;
+    height: 80px;
+    background-color: beige;
+    border: none;
+    border-radius: 15px;
+    margin: 10px auto;
+    padding-left: 25px;
+}

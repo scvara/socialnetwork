@@ -1,5 +1,6 @@
 import React from 'react';
 import p from './../Contentpart/Profile.module.css'
+import MyPosts from './Myposts/MyPosts';
 
 const Profile = () => {
     return (
@@ -8,7 +9,7 @@ const Profile = () => {
             <div className={p.user_info_box}>
                 <div className={p.user}>
                     <div className={p.user_ava}>
-                        <img src="https://i2.wp.com/nofiredrills.com/wp-content/uploads/2016/10/myavatar.png?fit=400%2C400&ssl=1" alt="avatar" />
+                        <img src="https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png" alt="avatar" />
                     </div>
                     <div className={p.user_info}>
                         <h3 className={p.name}>John</h3>
@@ -16,6 +17,7 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
+            <MyPosts />
         </div>
     );
 }

@@ -1,14 +1,13 @@
 .profile{
-    max-width: 920px;
     width: 100%;
-    background-color: rgb(198, 234, 255);
+    /* background-color: rgb(198, 234, 255); */
     border-radius: 15px;
-
+    
 }
 
 .profile_img {
     height: 200px;
-    background-image: url(https://media.sproutsocial.com/uploads/2018/04/Facebook-Cover-Photo-Size.png);
+    background-image: url(http://beingcovers.com/download.php?id=3182);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,9 +15,10 @@
     border-top-right-radius: 15px;
 }
 .user_ava img{
-    height: 90px;
-    border-radius: 50%;
-    border: 4px dashed rgb(255, 217, 0);
+    height: 120px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px dashed rgb(75, 75, 75);
     margin: 10px;
 }
 

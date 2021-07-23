@@ -1,12 +1,26 @@
 .header {
     max-width: 1170px;
     width: 100%;
-    background-color: rgb(238, 255, 0);
+    border-bottom: 1px solid grey ;
     border-radius: 15px;
     margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
 }
 
 .logo {
     height: 50px;
     margin: 3px 15px;
+}
+
+
+.login_btn{
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.login_btn a {
+    text-decoration: none;
 }
