@@ -1,8 +1,10 @@
 .post {
     background-color: rgb(238, 255, 161);
-    margin: 15px;
-    border-radius: 15px;
-    padding: 15px;
+    margin: 5px;
+    /* border-radius: 15px; */
+    padding: 5px;
+    border-top:  1px solid rgb(187, 187, 220);
+    border-bottom:  1px solid rgb(187, 187, 220);
 }
 
 .post_item {
@@ -29,6 +31,7 @@
 }
 
 .like_button {
+    display: block;
     margin-top: 15px;
     font-size: 18px;
     color: chocolate;

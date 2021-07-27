@@ -1,0 +1,24 @@
+.dialog_item_box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.dialog_item_box a {
+    text-decoration: none;
+    color: black;
+}
+
+.dialog_name {
+    font-size: 22px;
+}
+.dialog_ava{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+

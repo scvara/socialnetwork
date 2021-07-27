@@ -1,0 +1,18 @@
+.sidebar_title{
+    font-size: 18px;
+}
+.sidebar_friends{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 35px 0;
+    text-align: center;
+    width: 100%;
+}
+.sidebar_title{
+    border-left: 1px solid ##626c72;
+    padding-left: 10px;
+    margin-top: 50px;
+    font-size: 22px;
+}

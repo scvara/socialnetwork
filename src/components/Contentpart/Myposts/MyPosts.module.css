@@ -1,10 +1,8 @@
 .my_posts {
     background-color: rgba(255, 238, 0, 0.212);
-    width: 99%;
+    width: 100%;
     margin: 0 auto;
     padding: 15px 0px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
 }
 
 .my_posts h2 {
@@ -27,13 +25,16 @@
     text-transform: uppercase;
 }
 
-.text_area_input input {
+.text_area_input textarea {
     display: block;
     width: 95%;
     height: 80px;
-    background-color: beige;
-    border: none;
+    background: -webkit-linear-gradient(0deg, rgb(0, 255, 197), rgba(255, 255, 255, 0.0));
+    background: -moz-linear-gradient(0deg, rgb(0, 255, 197), rgba(255, 255, 255, 0.0));
+    background: linear-gradient(0deg, rgb(0, 255, 197), rgba(255, 255, 255, 0.0));
     border-radius: 15px;
     margin: 10px auto;
-    padding-left: 25px;
+    padding: 15px;
+    color:rgb(75, 31, 0);
+    font-size: 18px;
 }

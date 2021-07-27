@@ -1,53 +1,41 @@
-.dialogs{
-    background-color: rgba(0, 184, 230, 0.555);
+.dialogs {
+    background-color: rgba(184, 241, 255, 0.555);
     width: 100%;
     border-radius: 15px;
 }
-.first{
+
+.first {
     width: 20%;
 }
-.second{
+
+.second {
     width: 79%;
 }
-.third{
+
+.third {
     min-width: 5px;
-    background-color:#000;
+    background-color: #000;
     min-height: 80px;
     border-radius: 5px;
 }
 
-.dialogs_title{
+.dialogs_title {
     margin: 0;
     padding: 15px;
 }
-.dialogs_items{
+
+.dialogs_items {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
-.dialogs_item{
+
+.dialogs_item {
     margin-left: 10px;
     margin-right: 10px;
-}
-.friends_item{
-    font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-.friends_item a {
-    text-decoration: none;
-    color:blueviolet;
-    padding-left: 15px;
-}
-.chat{
-    border: 1px solid grey;
     border-radius: 15px;
-    margin-bottom: 15px;
-    padding: 10px 5px;
 }
-.chat_item{
-    height: 25px;
-    width: 25px;
-    background-color: darkkhaki;
-    border-radius: 50%;
+.dialogs_item a{
+    text-decoration: none;
 }
+
