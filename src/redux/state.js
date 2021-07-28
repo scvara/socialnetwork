@@ -1,13 +1,12 @@
 let state = {
     profilePage: {
         posts: [
-            { likeCounter: 15, postmessage: 'Hello World!' },
-            { likeCounter: 28, postmessage: '(28:5) start value has mixed support, consider using flex-start instead' },
-            { likeCounter: 13, postmessage: 'consider using flex-start instead Helloo' },
-            { likeCounter: 13, postmessage: 'consider using flex-start instead Helloo' },
-            { likeCounter: 13, postmessage: 'consider using flex-start instead Helloo' },
-            { likeCounter: 524, postmessage: 'Hello World!' },
-            { likeCounter: 524, postmessage: 'Hello World!' },
+            { id: 1, likeCounter: 15, postmessage: 'Hello World!' },
+            { id: 2, likeCounter: 28, postmessage: '(28:5) start value has mixed support, consider using flex-start instead' },
+            { id: 3, likeCounter: 13, postmessage: 'consider using flex-start instead Helloo' },
+            { id: 4, likeCounter: 13, postmessage: 'consider using flex-start instead Helloo' },
+            { id: 5, likeCounter: 13, postmessage: 'consider using flex-start instead Helloo' },
+            { id: 6, likeCounter: 524, postmessage: 'Hello World!' },
         ]
     },
     dialogPage: {
@@ -32,5 +31,15 @@ let state = {
         ]
     }
 }
+
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 7,
+        likeCounter: 0,
+        postmessage: postMessage,
+    };
+    state.profilePage.posts.push(newPost);
+}
+
 
 export default state;

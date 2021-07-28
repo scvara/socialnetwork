@@ -14,7 +14,7 @@ const App = (props) => {
         <div className='second_raw'>
           <Navigation friendInfo={props.state.sidebarPage.friends}/>
           <div className='content_part'>
-            <Route path='/myprofile' render={() => <Profile posts={props.state.profilePage.posts} />} />
+            <Route path='/myprofile' render={() => <Profile posts={props.state.profilePage.posts} addPost={props.addPost} />} />
             <Route path='/messages' render={() => <Dialogs dialogs={props.state.dialogPage.dialogs} messages={props.state.dialogPage.messages}/>} />
           </div>
 

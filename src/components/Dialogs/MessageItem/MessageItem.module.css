@@ -1,0 +1,38 @@
+.chat {
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px 5px;
+}
+
+.dialog_ava {
+    display: inline-block;
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    background-color: darkkhaki;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+.my_posts_btn{
+    padding: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 95%;
+    margin: 5px auto;
+    display: block;
+}
+.message_area{
+    display: block;
+    width: 95%;
+    height: 80px;
+    background: -webkit-linear-gradient(0deg, rgb(0, 255, 197), rgba(255, 255, 255, 0.0));
+    background: -moz-linear-gradient(0deg, rgb(0, 255, 197), rgba(255, 255, 255, 0.0));
+    background: linear-gradient(0deg, rgb(0, 255, 197), rgba(255, 255, 255, 0.0));
+    border-radius: 15px;
+    margin: 10px auto;
+    padding: 15px;
+    color:rgb(75, 31, 0);
+    font-size: 18px;
+}

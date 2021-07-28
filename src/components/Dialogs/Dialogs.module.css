@@ -2,6 +2,7 @@
     background-color: rgba(184, 241, 255, 0.555);
     width: 100%;
     border-radius: 15px;
+    height: 100%;
 }
 
 .first {
@@ -34,6 +35,7 @@
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;
+    height: 100%;
 }
 .dialogs_item a{
     text-decoration: none;
