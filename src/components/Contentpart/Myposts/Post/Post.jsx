@@ -1,31 +1,30 @@
 import React from 'react';
-import p from './../Post/Post.module.css'
+import s from './../Post/Post.module.css'
 
 
 
 const Post = (props) => {
-    let postItem = props.posts.map((post) => {
+    let postItem = props.posts.map(post => {
         return (
-            <div div className={p.post} >
-                <div className={p.post_item}>
-                    <div className={p.avatar}></div>
-                    <div className={p.textofpost}>
+            <div className={s.post} >
+                <div className={s.post_item}>
+                    <div className={s.avatar}></div>
+                    <div className={s.textofpost}>
                         {post.postmessage}
                     </div>
                 </div>
-                <div className={p.like_button}>
-                    <button className={p.like}>{`👍 this ${post.likeCounter}`}</button>
+                <div className={s.like_button}>
+                    <button className={s.like}>{`${post.likeCounter} 👍 this`}</button>
                 </div>
             </div>
+
         );
     });
     return (
         <div>
             {postItem}
         </div>
-
     );
 }
-
 
 export default Post;

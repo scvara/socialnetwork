@@ -1,5 +1,5 @@
 import React from 'react';
-import d from './../Dialogs/Dialogs.module.css';
+import s from './../Dialogs/Dialogs.module.css';
 import DialogItem from './../Dialogs/DialogItem/DialogItem';
 import MessageItem from './../Dialogs/MessageItem/MessageItem';
 
@@ -7,13 +7,13 @@ import MessageItem from './../Dialogs/MessageItem/MessageItem';
 
 const Dialogs = (props) => {
     return (
-        <div className={d.dialogs}>
-            <h2 className={d.dialogs_title}>Messages</h2>
-            <div className={d.dialogs_items}>
-                <div className={`${d.dialogs_item} ${d.first}`}>
+        <div className={s.dialogs}>
+            <h2 className={s.dialogs_title}>Messages</h2>
+            <div className={s.dialogs_items}>
+                <div className={`${s.dialogs_item} ${s.first}`}>
                     <DialogItem dialogs={props.dialogs} />
                 </div>
-                <div className={`${d.dialogs_item} ${d.second}`}>
+                <div className={`${s.dialogs_item} ${s.second}`}>
                     <MessageItem messages={props.messages} />
                 </div>
             </div>

@@ -23,6 +23,5 @@
 .user{
     display: flex;
     flex-direction: row;
-    justify-content: start;
     align-items: center;
 }

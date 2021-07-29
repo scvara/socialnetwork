@@ -1,7 +1,7 @@
 .dialog_item_box{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     margin-bottom: 15px;
     width: 100%;
 }
@@ -17,7 +17,7 @@
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: aqua;
+    background-color: rgb(74, 78, 78);
     margin-right: 10px;
     border-radius: 50%;
 }
