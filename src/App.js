@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './App.css';
 import Profile from './components/Contentpart/Profile';
 import Header from './components/Header/Header';
@@ -13,10 +12,16 @@ const App = (props) => {
       <div className='app-wrapper'>
         <Header />
         <div className='second_raw'>
-          <Navigation friendInfo={props.state.sidebarPage.friends}/>
+          <Navigation friendInfo={props.state.sidebarPage.friends} />
           <div className='content_part'>
-            <Route path='/myprofile' render={() => <Profile posts={props.state.profilePage.posts} addPost={props.addPost} />} />
-            <Route path='/messages' render={() => <Dialogs dialogs={props.state.dialogPage.dialogs} messages={props.state.dialogPage.messages}/>} />
+            <Route path='/myprofile' 
+            render={() => <Profile posts={props.state.profilePage.posts}
+                                   addPost={props.addPost}
+                                   newPostText={props.state.profilePage.newPostText}
+                                   updateNewPostText={props.updateNewPostText} />} />
+            <Route path='/messages'
+            render={() => <Dialogs dialogs={props.state.dialogPage.dialogs}
+                                   messages={props.state.dialogPage.messages} />} />
           </div>
         </div>
       </div>

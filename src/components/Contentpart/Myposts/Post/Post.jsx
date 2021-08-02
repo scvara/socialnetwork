@@ -14,7 +14,7 @@ const Post = (props) => {
                     </div>
                 </div>
                 <div className={s.like_button}>
-                    <button className={s.like}>{`${post.likeCounter} 👍 this`}</button>
+                    <button className={s.like_icon}>{`${post.likeCounter} 👍 this`}</button>
                 </div>
             </div>
 
