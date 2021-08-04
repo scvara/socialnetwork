@@ -14,7 +14,9 @@ const Dialogs = (props) => {
                     <DialogItem dialogs={props.dialogs} />
                 </div>
                 <div className={`${s.dialogs_item} ${s.second}`}>
-                    <MessageItem messages={props.messages} />
+                    <MessageItem messages={props.messages} 
+                                 dispatch={props.dispatch} 
+                                 newMessageText={props.newMessageText}/>
                 </div>
             </div>
         </div>

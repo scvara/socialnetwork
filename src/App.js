@@ -16,12 +16,13 @@ const App = (props) => {
           <div className='content_part'>
             <Route path='/myprofile' 
             render={() => <Profile posts={props.state.profilePage.posts}
-                                   addPost={props.addPost}
                                    newPostText={props.state.profilePage.newPostText}
-                                   updateNewPostText={props.updateNewPostText} />} />
+                                   dispatch={props.dispatch} />} />
             <Route path='/messages'
             render={() => <Dialogs dialogs={props.state.dialogPage.dialogs}
-                                   messages={props.state.dialogPage.messages} />} />
+                                   messages={props.state.dialogPage.messages}
+                                   newMessageText={props.state.dialogPage.newMessageText}
+                                   dispatch={props.dispatch} />} />
           </div>
         </div>
       </div>
